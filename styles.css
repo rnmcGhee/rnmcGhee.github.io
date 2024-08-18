@@ -97,7 +97,7 @@ h2 {
 .work-item img {
     max-width: 100%;
     height: auto; /* Maintain aspect ratio */
-    transform: rotate(15deg); /* Rotate the image by 15 degrees */
+    transform: rotate(90deg); /* Rotate the image by 90 degrees */
     transition: transform 0.5s ease; /* Smooth transition effect */
 }
 
