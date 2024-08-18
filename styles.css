@@ -9,7 +9,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 120px; /* Increased height */
+    height: 160px; /* Increased height */
     background: url('file:///C:/Users/Rachel%20McGhee/OneDrive%20-%20Emory%20University/GitHub/Sagegreen.webp') no-repeat center center/cover;
     background-color: #fff; /* Fallback color */
     border-bottom: 1px solid #ddd;
