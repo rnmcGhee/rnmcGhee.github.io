@@ -45,32 +45,28 @@ body {
     height: 100vh;
     background: url('hero-image.jpg') no-repeat center center/cover;
     display: flex;
+    justify-content: flex-end; /* Align items to the right */
     align-items: center;
-    padding: 0 2rem;
+    text-align: left; /* Align text to the left */
     color: #fff;
     margin-top: 120px; /* Adjusted for thicker header */
 }
 
-.hero-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Aligns items to the left and right */
-    max-width: 80%;
-    margin: 0 auto;
-}
-
 .text-content {
-    max-width: 600px; /* Adjust as needed */
+    max-width: 60%;
+    margin-right: 20px; /* Space between text and profile photo */
 }
 
 .profile-container {
-    flex-shrink: 0; /* Prevent shrinking of the profile photo */
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .profile-photo {
-    width: 200px; /* Adjust size as needed */
-    height: 300px; /* Adjust size as needed */
-    border-radius: 80%; /* Round edges */
+    width: 250px; /* Adjust size as needed */
+    height: 250px; /* Adjust size as needed */
+    border-radius: 50%; /* Oval shape for profile photo */
     object-fit: cover; /* Ensures the image covers the area without distortion */
 }
 
@@ -100,9 +96,9 @@ h2 {
 
 .work-item img {
     max-width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 1rem;
+    height: auto; /* Maintain aspect ratio */
+    transform: rotate(15deg); /* Rotate the image by 15 degrees */
+    transition: transform 0.5s ease; /* Smooth transition effect */
 }
 
 .site-footer {
