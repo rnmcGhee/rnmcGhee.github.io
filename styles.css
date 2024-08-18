@@ -68,9 +68,9 @@ body {
 }
 
 .profile-photo {
-    width: 600px; /* Adjust size as needed */
-    height: 750px; /* Adjust size as needed */
-    border-radius: 50%; /* Round edges */
+    width: 400px; /* Adjust size as needed */
+    height: 500px; /* Adjust size as needed */
+    border-radius: 70%; /* Round edges */
     object-fit: cover; /* Ensures the image covers the area without distortion */
 }
 
