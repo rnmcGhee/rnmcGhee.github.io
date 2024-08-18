@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     color: #3B332A; /* Updated body text color */
-    background: url('https://i.pinimg.com/originals/4b/7d/0a/4b7d0ad9deeeb8fad8f43b12425f6cb9.png') no-repeat center center/cover;
+    background: url('https://i.pinimg.com/originals/4b/7d/0a/4b7d0ad9deeeb8fad8f43b12425f6cb9.png');
     background-color: #9F8A73; /* Fallback color */
 }
 
