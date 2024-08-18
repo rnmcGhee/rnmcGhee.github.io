@@ -70,7 +70,7 @@ body {
     object-fit: cover; /* Ensures the image covers the area without distortion */
 }
 
-.about, .research, .contact {
+.about, .work, .contact {
     padding: 4rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
