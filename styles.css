@@ -89,6 +89,7 @@ h2 {
 
 .site-footer {
     background: url('file:///C:/Users/Rachel%20McGhee/OneDrive%20-%20Emory%20University/GitHub/Sagegreen.webp') no-repeat center center/cover;
+    background-color: #BFAA94; /* Fallback color */
     color: #fff;
     padding: 1rem 2rem;
     text-align: center;
