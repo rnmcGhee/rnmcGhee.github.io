@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     color: #333;
-    background: url('https://i.pinimg.com/736x/a7/1b/82/a71b829119551fd3178f7cfbf77cee41.jpg') no-repeat center center/cover;
+    background: url('https://i.pinimg.com/564x/3c/98/7f/3c987ff819638e79145a0ba376e96144.jpg') no-repeat center center/cover;
     background-color: #9DC183; /* Fallback color */
 }
 
@@ -10,7 +10,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 140px; /* Increased height */
+    height: 100px; /* Increased height */
     background-color: #9DC183; /* Fallback color */
     border-bottom: 1px solid #ddd;
     padding: 1.5rem 2rem; /* Adjusted padding */
