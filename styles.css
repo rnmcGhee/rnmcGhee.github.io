@@ -1,9 +1,9 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    color: #333;
+    color: #3B332A; /* Updated body text color */
     background: url('https://i.pinimg.com/originals/4b/7d/0a/4b7d0ad9deeeb8fad8f43b12425f6cb9.png') no-repeat center center/cover;
-    background-color: #BFAA94; /* Fallback color */
+    background-color: #9F8A73; /* Fallback color */
 }
 
 .site-header {
@@ -89,7 +89,7 @@ h2 {
 
 .site-footer {
     background: url('file:///C:/Users/Rachel%20McGhee/OneDrive%20-%20Emory%20University/GitHub/Sagegreen.webp') no-repeat center center/cover;
-    background-color: #BFAA94; /* Fallback color */
+    background-color: #9F8A73; /* Fallback color */
     color: #fff;
     padding: 1rem 2rem;
     text-align: center;
