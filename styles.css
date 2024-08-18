@@ -2,24 +2,21 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     color: #333;
+    background: url('https://i.pinimg.com/564x/3c/37/ff/3c37ffede783a35f664cbcbe0c4e7176.jpg') no-repeat center center/cover;
 }
 
 .site-header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #fff;
+    height: 120px; /* Increased height */
+    background: url('file:///C:/Users/Rachel%20McGhee/OneDrive%20-%20Emory%20University/GitHub/Sagegreen.webp') no-repeat center center/cover;
+    background-color: #fff; /* Fallback color */
     border-bottom: 1px solid #ddd;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem; /* Adjusted padding */
     display: flex;
-    justify-content: space-between;
     align-items: center;
     z-index: 1000;
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
 }
 
 .nav-links {
@@ -52,7 +49,7 @@ body {
     align-items: center;
     text-align: center;
     color: #fff;
-    margin-top: 60px; /* Adjust for fixed header */
+    margin-top: 120px; /* Adjusted for thicker header */
 }
 
 .hero-content {
@@ -91,23 +88,8 @@ h2 {
 }
 
 .site-footer {
-    background-color: #333;
+    background: url('file:///C:/Users/Rachel%20McGhee/OneDrive%20-%20Emory%20University/GitHub/Sagegreen.webp') no-repeat center center/cover;
     color: #fff;
     padding: 1rem 2rem;
     text-align: center;
 }
-
-.social-links {
-    margin-top: 0.5rem;
-}
-
-.social-links a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 0.5rem;
-}
-
-.social-links a:hover {
-    color: #007BFF;
-}
-
