@@ -45,15 +45,33 @@ body {
     height: 100vh;
     background: url('hero-image.jpg') no-repeat center center/cover;
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+    padding: 0 2rem;
     color: #fff;
     margin-top: 120px; /* Adjusted for thicker header */
 }
 
 .hero-content {
+    display: flex;
+    align-items: center;
     max-width: 80%;
+    margin: 0 auto;
+    gap: 2rem; /* Space between the profile photo and text */
+}
+
+.profile-container {
+    flex-shrink: 0; /* Prevent shrinking of the profile photo */
+}
+
+.profile-photo {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%; /* Round edges */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.text-content {
+    max-width: 600px; /* Adjust as needed */
 }
 
 .about, .work, .contact {
