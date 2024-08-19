@@ -72,10 +72,12 @@ body {
     max-width: 60%;
 }
 
-.cv, .research, .contact {
+/* Ensure consistent layout for CV, Research, and Contact sections */
+.CV, .research, .contact {
+    max-width: 1200px; /* Maximum width to control layout */
+    margin: 6rem auto; /* Auto margin to center the sections */
     padding: 4rem 2rem;
-    max-width: 1200px;
-    margin: 6rem auto;
+    text-align: center; /* Center the text within each section */
 }
 
 .site-footer {
