@@ -1,20 +1,20 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    color: #3B332A; /* Updated body text color */
+    color: #3B332A;
     background: url('beige_background.png') no-repeat center center fixed;
-    background-size: cover; /* Ensure the image covers the entire body */
-    background-color: #9F8A73; /* Fallback color */
+    background-size: cover;
+    background-color: #9F8A73;
 }
 
 .site-header {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 50px; /* Increased height */
-    background-color: #6C5949; /* Fallback color */
+    height: 50px;
+    background-color: #6C5949;
     border-bottom: 1px solid #ddd;
-    padding: 1.5rem 2rem; /* Adjusted padding */
+    padding: 1.5rem 2rem;
     display: flex;
     align-items: center;
     z-index: 1000;
@@ -44,41 +44,42 @@ body {
 
 .hero {
     height: 100vh;
-    background: url('hero-image.jpg') no-repeat center center/cover;
     display: flex;
-    justify-content: flex-end; /* Align items to the right */
+    justify-content: flex-start;
     align-items: center;
-    text-align: left; /* Align text to the left */
-    color: #fff;
-    margin-top: 120px; /* Adjusted for thicker header */
+    margin-top: 120px;
+    padding: 20px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-container {
+    flex-shrink: 0;
+}
+
+.profile-photo {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .text-content {
     max-width: 60%;
-    margin-right: 20px; /* Space between text and profile photo */
 }
 
-.profile-container {
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-
-.profile-photo {
-    width: 250px; /* Adjust size as needed */
-    height: 250px; /* Adjust size as needed */
-    border-radius: 50%; /* Oval shape for profile photo */
-    object-fit: cover; /* Ensures the image covers the area without distortion */
-}
-
-.CV, .research, .contact {
+.cv, .research, .contact {
     padding: 4rem 2rem;
     max-width: 1200px;
-    margin: 6rem auto; /* Equal spacing before and after each section */
+    margin: 6rem auto;
 }
 
 .site-footer {
-    background-color: #6C5949; /* Fallback color */
+    background-color: #6C5949;
     color: #fff;
     padding: 1rem 2rem;
     text-align: center;
