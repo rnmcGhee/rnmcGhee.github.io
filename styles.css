@@ -48,7 +48,7 @@ body {
 .hero {
     height: 100vh;
     display: flex;
-    justify-content: center; /* Center the hero content */
+    justify-content: center;
     align-items: center;
     margin-top: 120px;
     padding: 20px;
@@ -57,13 +57,13 @@ body {
 .hero-content {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 20px; /* Space between profile photo and text */
+    justify-content: center; /* Centers the content horizontally */
 }
 
 .profile-container {
     flex-shrink: 0;
-    display: flex;
-    justify-content: center; /* Center the profile photo */
+    margin-right: 30px; /* Move the profile photo slightly to the right */
 }
 
 .profile-photo {
@@ -74,8 +74,8 @@ body {
 }
 
 .text-content {
-    max-width: 60%;
-    padding-left: 50px; /* Add padding to prevent text from going too far left */
+    max-width: 40%; /* Limit the width of the text content */
+    padding-left: 50px; /* Aligns text with the profile photo */
 }
 
 /* Responsive Design for Mobile */
@@ -84,31 +84,22 @@ body {
         flex-direction: column;
         align-items: center; /* Center the content */
     }
-    
+
+    .profile-container {
+        margin-right: 0; /* Remove the right margin on mobile */
+    }
+
     .profile-photo {
         width: 80%; /* Adjust the size of the photo for mobile */
         height: auto;
         margin-bottom: 20px; /* Space between the photo and the text */
     }
-    
+
     .text-content {
         text-align: center; /* Center the text */
         padding-left: 0; /* Remove padding on mobile */
-        max-width: 100%; /* Ensure text content fits on small screens */
+        max-width: 100%; /* Ensure the text takes full width */
     }
 }
 
 /* Ensure consistent layout for CV, Research, and Contact sections */
-.CV, .research, .contact {
-    max-width: 1200px;
-    margin: 6rem auto;
-    padding: 4rem 2rem;
-    text-align: center;
-}
-
-.site-footer {
-    background-color: #6C5949;
-    color: #fff;
-    padding: 1rem 2rem;
-    text-align: center;
-}
