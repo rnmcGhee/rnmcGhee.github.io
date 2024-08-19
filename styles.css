@@ -1,10 +1,13 @@
+/* Import the Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     color: #3B332A;
     background: url('beige_background.png') no-repeat center center fixed;
     background-size: cover;
-    background-color: #F2EBE1;
+    background-color: #9F8A73;
 }
 
 .site-header {
@@ -72,12 +75,30 @@ body {
     max-width: 60%;
 }
 
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        align-items: center; /* Center the content */
+    }
+    
+    .profile-photo {
+        width: 80%; /* Adjust the size of the photo for mobile */
+        height: auto;
+        margin-bottom: 20px; /* Space between the photo and the text */
+    }
+    
+    .text-content {
+        text-align: center; /* Center the text */
+    }
+}
+
 /* Ensure consistent layout for CV, Research, and Contact sections */
-.cv, .research, .contact {
-    max-width: 1200px; /* Maximum width to control layout */
-    margin: 6rem auto; /* Auto margin to center the sections */
+.CV, .research, .contact {
+    max-width: 1200px;
+    margin: 6rem auto;
     padding: 4rem 2rem;
-    text-align: center; /* Center the text within each section */
+    text-align: center;
 }
 
 .site-footer {
