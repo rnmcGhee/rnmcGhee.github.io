@@ -48,7 +48,7 @@ body {
 .hero {
     height: 100vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center; /* Center the hero content */
     align-items: center;
     margin-top: 120px;
     padding: 20px;
@@ -62,6 +62,8 @@ body {
 
 .profile-container {
     flex-shrink: 0;
+    display: flex;
+    justify-content: center; /* Center the profile photo */
 }
 
 .profile-photo {
@@ -73,7 +75,7 @@ body {
 
 .text-content {
     max-width: 60%;
-     padding-left: 50px; /* Add padding to prevent text from going too far left */
+    padding-left: 50px; /* Add padding to prevent text from going too far left */
 }
 
 /* Responsive Design for Mobile */
@@ -91,6 +93,8 @@ body {
     
     .text-content {
         text-align: center; /* Center the text */
+        padding-left: 0; /* Remove padding on mobile */
+        max-width: 100%; /* Ensure text content fits on small screens */
     }
 }
 
