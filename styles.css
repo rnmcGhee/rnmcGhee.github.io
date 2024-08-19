@@ -45,7 +45,65 @@ body {
     color: #007BFF;
 }
 
-/* Centering content for sections like CV, Research, and Contact */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    padding: 20px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between profile photo and text */
+    justify-content: center; /* Centers the content horizontally */
+}
+
+.profile-container {
+    flex-shrink: 0;
+    margin-right: 30px; /* Move the profile photo slightly to the right */
+}
+
+.profile-photo {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.text-content {
+    max-width: 40%; /* Limit the width of the text content */
+    padding-left: 50px; /* Aligns text with the profile photo */
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        align-items: center; /* Center the content */
+    }
+
+    .profile-container {
+        margin-right: 0; /* Remove the right margin on mobile */
+    }
+
+    .profile-photo {
+        width: 90%; /* Adjust the size of the photo for mobile */
+        max-width: 100%; /* Ensure the image doesn't exceed the width of the screen */
+        height: auto;
+        margin-bottom: 20px; /* Space between the photo and the text */
+    }
+
+    .text-content {
+        text-align: center; /* Center the text */
+        padding-left: 0; /* Remove padding on mobile */
+        max-width: 90%; /* Ensure the text takes full width */
+    }
+}
+
+/* Ensure consistent layout for CV, Research, and Contact sections */
 .cv, .research, .contact {
     display: flex;
     flex-direction: column;
@@ -54,11 +112,6 @@ body {
     text-align: center;
     padding: 4rem 2rem;
     min-height: calc(100vh - 50px); /* Adjust for header height */
-}
-
-.research h2 {
-    font-weight: bold;
-    margin-bottom: 2rem; /* Add some spacing below the Graduate Research header */
 }
 
 .work-grid, .research-grid, .contact-grid {
@@ -74,7 +127,6 @@ body {
     width: 100%; /* Ensures the research items stretch across the page */
 }
 
-/* Responsive Design for Mobile */
 @media (max-width: 768px) {
     .cv, .research, .contact {
         padding: 2rem 1rem;
