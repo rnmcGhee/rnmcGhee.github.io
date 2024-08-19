@@ -127,19 +127,3 @@ body {
     width: 100%; /* Ensures the research items stretch across the page */
 }
 
-@media (max-width: 768px) {
-    .cv, .research, .contact {
-        padding: 2rem 1rem;
-    }
-
-    .work-item, .research-item, .contact-item {
-        margin: 1rem 0;
-    }
-}
-
-.site-footer {
-    background-color: #6C5949;
-    color: #fff;
-    padding: 1rem 2rem;
-    text-align: center;
-}
