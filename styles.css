@@ -71,10 +71,10 @@ body {
     object-fit: cover; /* Ensures the image covers the area without distortion */
 }
 
-.about, .research, .contact {
+.CV, .research, .contact {
     padding: 4rem 2rem;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 6rem auto; /* Equal spacing before and after each section */
 }
 
 .site-footer {
