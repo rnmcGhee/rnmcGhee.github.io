@@ -145,16 +145,3 @@ body {
     padding: 1rem 2rem;
     text-align: center;
 }
-
-/* Social Icons */
-.social-icons img {
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
-}
-
-.social-links img {
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
-}
